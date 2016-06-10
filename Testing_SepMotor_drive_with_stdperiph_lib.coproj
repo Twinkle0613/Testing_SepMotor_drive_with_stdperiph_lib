@@ -94,9 +94,9 @@
     <File name="SPI_setting.c" path="app/SPI_setting.c" type="1"/>
     <File name="CMSIS/core_cmSimd.h" path="Conf/CMSIS/core_cmSimd.h" type="1"/>
     <File name="Hardware/stm32f10x_gpio.h" path="Conf/Hardware/stm32f10x_gpio.h" type="1"/>
-    <File name="Hardware/stm32f10x_usart.h" path="Conf/Hardware/stm32f10x_usart.h" type="1"/>
     <File name="Conf/system_stm32f10x.h" path="Conf/system_stm32f10x.h" type="1"/>
     <File name="stpMtr_drive.c" path="app/stpMtr_drive.c" type="1"/>
+    <File name="Hardware/stm32f10x_usart.h" path="Conf/Hardware/stm32f10x_usart.h" type="1"/>
     <File name="Conf" path="" type="2"/>
     <File name="Startup/stm32f103xb.h" path="Conf/startup/stm32f103xb.h" type="1"/>
     <File name="Startup" path="" type="2"/>
