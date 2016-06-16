@@ -72,9 +72,9 @@
   <Components path="./"/>
   <LocalComponents/>
   <Files>
+    <File name="CMSIS/core_cmFunc.h" path="Conf/CMSIS/core_cmFunc.h" type="1"/>
     <File name="Hardware/stm32f10x_usart.c" path="Conf/Hardware/stm32f10x_usart.c" type="1"/>
     <File name="Hardware" path="" type="2"/>
-    <File name="CMSIS/core_cmFunc.h" path="Conf/CMSIS/core_cmFunc.h" type="1"/>
     <File name="Conf/system_stm32f10x.c" path="Conf/system_stm32f10x.c" type="1"/>
     <File name="Startup/stm32f1xx.h" path="Conf/startup/stm32f1xx.h" type="1"/>
     <File name="Hardware/stm32f10x_spi.h" path="Conf/Hardware/StdPeriph_Driver/inc/stm32f10x_spi.h" type="1"/>

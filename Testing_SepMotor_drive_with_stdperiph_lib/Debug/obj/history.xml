@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -DSTM32F103C8T6 -DUSE_STDPERIPH_DRIVER -DSTM32F103xB -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\Hardware\StdPeriph_Driver -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\Hardware\StdPeriph_Driver\inc -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\Hardware -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\app -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\startup">
-      <target file="syscalls.o" lastModified="1553ea2e582">
+   <processor signature="arm-none-eabi-gcc 4.9.3 mingw32 -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -DSTM32F103C8T6 -DUSE_STDPERIPH_DRIVER -DSTM32F103xB -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\Hardware\StdPeriph_Driver -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\Hardware\StdPeriph_Driver\inc -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\Hardware -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\app -I..\..\..\..\..\..\..\CoIDE\workspace\Testing_SepMotor_drive_with_stdperiph_lib\Conf\startup">
+      <target file="syscalls.o" lastModified="15558387b61">
          <source file="..\..\..\Conf\syscalls.c" lastModified="154af482b57"/>
       </target>
-      <target file="startup_stm32f103xb.o" lastModified="1553ea2e30b">
+      <target file="startup_stm32f103xb.o" lastModified="15558387312">
          <source file="..\..\..\Conf\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0"/>
       </target>
-      <target file="SPI_setting.o" lastModified="1553ea2e60f">
+      <target file="SPI_setting.o" lastModified="15558387ced">
          <source file="..\..\..\app\SPI_setting.c" lastModified="15525233888"/>
       </target>
-      <target file="GPIO_setting.o" lastModified="1553ea2e75e">
+      <target file="GPIO_setting.o" lastModified="1555838800b">
          <source file="..\..\..\app\GPIO_setting.c" lastModified="15507b59dc9"/>
       </target>
-      <target file="system_stm32f10x.o" lastModified="1553ea2e103">
+      <target file="system_stm32f10x.o" lastModified="15558386e0c">
          <source file="..\..\..\Conf\system_stm32f10x.c" lastModified="1553e814a16"/>
       </target>
-      <target file="stpMtr_drive.o" lastModified="1553ea2e2f7">
+      <target file="stpMtr_drive.o" lastModified="155583872c4">
          <source file="..\..\..\app\stpMtr_drive.c" lastModified="1552a452e7e"/>
       </target>
-      <target file="stm32f10x_spi.o" lastModified="1553ea2e6cb">
+      <target file="stm32f10x_spi.o" lastModified="15558387ede">
          <source file="..\..\..\Conf\Hardware\StdPeriph_Driver\src\stm32f10x_spi.c" lastModified="15486435481"/>
       </target>
-      <target file="main.o" lastModified="1553eff4dce">
-         <source file="..\..\..\app\main.c" lastModified="1553eff4aca"/>
+      <target file="main.o" lastModified="155585fbc5c">
+         <source file="..\..\..\app\main.c" lastModified="155585fb2ce"/>
       </target>
-      <target file="stm32f10x_gpio.o" lastModified="1553ea2e1fa">
+      <target file="stm32f10x_gpio.o" lastModified="15558386f8b">
          <source file="..\..\..\Conf\Hardware\stm32f10x_gpio.c" lastModified="1548643542c"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="1553ea2e469">
+      <target file="stm32f10x_usart.o" lastModified="15558387760">
          <source file="..\..\..\Conf\Hardware\stm32f10x_usart.c" lastModified="154c4f36da9"/>
       </target>
-      <target file="stm32f10x_rcc.o" lastModified="1553ea2e3bf">
+      <target file="stm32f10x_rcc.o" lastModified="1555838753c">
          <source file="..\..\..\Conf\Hardware\stm32f10x_rcc.c" lastModified="154b49534e1"/>
       </target>
    </processor>
